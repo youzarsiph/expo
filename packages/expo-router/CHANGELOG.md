@@ -8,6 +8,7 @@
 
 - Mark React client components with "use client" directives. ([#27300](https://github.com/expo/expo/pull/27300) by [@EvanBacon](https://github.com/EvanBacon))
 - Add URL hash support ([#27105](https://github.com/expo/expo/pull/27105) by [@marklawlor](https://github.com/marklawlor))
+- Allow platform extensions for layout and route files
 
 ### 🐛 Bug fixes
 
