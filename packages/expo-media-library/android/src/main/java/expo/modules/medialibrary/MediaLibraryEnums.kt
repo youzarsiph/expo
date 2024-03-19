@@ -1,6 +1,21 @@
 package expo.modules.medialibrary
 
+import android.Manifest
 import android.provider.MediaStore
+
+enum class GranularPermission(val value: String) {
+  AUDIO("audio"),
+  PHOTO("photo"),
+  VIDEO("video");
+
+  fun toManifestPermission(): String {
+    return when (this) {
+      AUDIO -> Manifest.permission.READ_MEDIA_AUDIO
+      PHOTO -> Manifest.permission.READ_MEDIA_IMAGES
+      VIDEO -> Manifest.permission.READ_MEDIA_VIDEO
+    }
+  }
+}
 
 enum class MediaType(val apiName: String, val mediaColumn: Int?) {
   AUDIO("audio", MediaStore.Files.FileColumns.MEDIA_TYPE_AUDIO),
