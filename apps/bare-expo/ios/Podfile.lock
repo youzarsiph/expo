@@ -655,7 +655,7 @@ PODS:
     - FBLazyVector (= 0.74.0-rc.6)
     - RCTRequired (= 0.74.0-rc.6)
     - React-Core (= 0.74.0-rc.6)
-  - ReachabilitySwift (5.0.0)
+  - ReachabilitySwift (5.2.1)
   - React (0.74.0-rc.6):
     - React-Core (= 0.74.0-rc.6)
     - React-Core/DevSupport (= 0.74.0-rc.6)
@@ -1852,7 +1852,7 @@ PODS:
     - React-Core
   - RNFlashList (1.6.3):
     - React-Core
-  - RNGestureHandler (2.14.0):
+  - RNGestureHandler (2.16.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2561,7 +2561,7 @@ SPEC CHECKSUMS:
   RCTDeprecation: 82b53c4f460b7a5b27c6be8310a71bc84df583f5
   RCTRequired: d1a99a9f78fcc4acca99ab397822f4e58601b134
   RCTTypeSafety: b5ce0dd6fb08d84f2dbe24f93a80f07f9e21cad4
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  ReachabilitySwift: 5ae15e16814b5f9ef568963fb2c87aeb49158c66
   React: 2ba05d73c03f915279113dd288c89c1c9a285c37
   React-callinvoker: 9558633e9e5fa2c008bb37c4134e4134e3ba32be
   React-Codegen: 751aad0eb79b278c09516f895d54c2f1b2a6d0dc
@@ -2617,14 +2617,14 @@ SPEC CHECKSUMS:
   RNCPicker: 82ccad5b08259dc09310082118cbb6c136d7da67
   RNDateTimePicker: 7b38b71bcd7c4cfa1cb95f2dff9a4f1faed2dced
   RNFlashList: 4b4b6b093afc0df60ae08f9cbf6ccd4c836c667a
-  RNGestureHandler: ce6dc347cb4edb664bfc250fc37cd753ae7432ec
+  RNGestureHandler: 4d271a5d9178403bd8dae0d853e2be21cf53743c
   RNReanimated: ba5db5a81395c0cac529dbb1719453dd5c4c6f24
   RNScreens: f37061aab58a12f92a4ecb0ee99dfc6dc9500ebf
   RNSVG: 255767813dac22db1ec2062c8b7e7b856d4e5ae6
   SDWebImage: 2d6d229046fea284d62e36bfb8ebe8287dfc5b10
   SDWebImageAVIFCoder: 00310d246aab3232ce77f1d8f0076f8c4b021d90
   SDWebImageSVGCoder: 15a300a97ec1c8ac958f009c02220ac0402e936c
-  SDWebImageWebPCoder: c94f09adbca681822edad9e532ac752db713eabf
+  SDWebImageWebPCoder: eb09ecbb5a65a1deb5c5f7960fdb788daae0dd43
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   sqlite3: f163dbbb7aa3339ad8fc622782c2d9d7b72f7e9c
   UMAppLoader: 5df85360d65cabaef544be5424ac64672e648482
