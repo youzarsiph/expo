@@ -63,31 +63,6 @@ const config: VendoringTargetConfig = {
         excludeFiles: ['src/android/gradle.properties', 'src/android/gradle-maven-push.gradle'],
       },
     },
-    'react-native-gesture-handler': {
-      source: 'https://github.com/software-mansion/react-native-gesture-handler.git',
-      semverPrefix: '~',
-      ios: {},
-      android: {
-        async postCopyFilesHookAsync(sourceDirectory: string, targetDirectory: string) {
-          const buildGradlePath = path.join(targetDirectory, 'android', 'build.gradle');
-          let buildGradle = await fs.readFile(buildGradlePath, 'utf-8');
-          buildGradle = buildGradle.replace(
-            'def shouldUseCommonInterfaceFromReanimated() {',
-            'def shouldUseCommonInterfaceFromReanimated() {\n    return true\n'
-          );
-          buildGradle = buildGradle.replace(
-            /react-native-reanimated/g,
-            'vendored_unversioned_react-native-reanimated'
-          );
-          await fs.writeFile(buildGradlePath, buildGradle);
-        },
-        excludeFiles: [
-          'android/gradle{/**,**}',
-          'android/settings.gradle',
-          'android/spotless.gradle',
-        ],
-      },
-    },
     'react-native-reanimated': {
       source: 'https://github.com/software-mansion/react-native-reanimated.git',
       semverPrefix: '~',
