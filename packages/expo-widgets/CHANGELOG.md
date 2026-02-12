@@ -6,6 +6,8 @@
 
 ### 🎉 New features
 
+- Render widgets in JSC. ([#42987](https://github.com/expo/expo/pull/42987) by [@jakex7](https://github.com/jakex7))
+
 ### 🐛 Bug fixes
 
 - Fix blank widget preview content ([#42857](https://github.com/expo/expo/pull/42857) by [@garygcchiu](https://github.com/garygcchiu))
