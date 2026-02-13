@@ -12,6 +12,7 @@
 ### 🐛 Bug fixes
 
 - [iOS] Fix rendering `0` in SwiftUI Text. ([#43036](https://github.com/expo/expo/pull/43036) by [@jakex7](https://github.com/jakex7))
+- [iOS] Set initial state in `init` instead of `onAppear` in `DatePicker`, `Section`, `DisclosureGroup`, `Popover`, and `ColorPicker` components. ([#42933](https://github.com/expo/expo/pull/42933) by [@nishan](https://github.com/intergalacticspacehighway))
 
 ### 💡 Others
 
@@ -20,6 +21,7 @@
 ### 🐛 Bug fixes
 
 - [iOS] Fixed missing dependency on RCTFabric in ExpoUI podspec. ([#42901](https://github.com/expo/expo/pull/42901) by [@chrfalch](https://github.com/chrfalch))
+- [iOS] Fix initial state not being set in `Picker`, `Slider`, `Toggle`, and `List` components. ([#42933](https://github.com/expo/expo/pull/42933) by [@nishan](https://github.com/intergalacticspacehighway))
 
 ## 55.0.0-preview.4 — 2026-02-03
 
