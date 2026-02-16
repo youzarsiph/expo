@@ -1,6 +1,6 @@
 {
   "name": "@expo/cli",
-  "version": "55.0.8",
+  "version": "55.0.9",
   "description": "The Expo CLI",
   "main": "build/bin/cli",
   "bin": {
@@ -41,7 +41,7 @@
   "homepage": "https://github.com/expo/expo/tree/main/packages/@expo/cli",
   "dependencies": {
     "@expo/code-signing-certificates": "^0.0.6",
-    "@expo/config": "~55.0.5",
+    "@expo/config": "~55.0.6",
     "@expo/config-plugins": "~55.0.5",
     "@expo/devcert": "^1.2.1",
     "@expo/env": "~2.1.1",

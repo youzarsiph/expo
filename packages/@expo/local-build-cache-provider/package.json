@@ -40,7 +40,7 @@
     "build"
   ],
   "dependencies": {
-    "@expo/config": "~55.0.5",
+    "@expo/config": "~55.0.6",
     "chalk": "^4.1.2"
   },
   "devDependencies": {
