@@ -9,6 +9,7 @@
 ### 🎉 New features
 
 - [Android] Add `buttonConfiguration` prop to `VideoView`. ([#42875](https://github.com/expo/expo/pull/42875) by [@behenate](https://github.com/behenate))
+- [Android] Add `PlayerBuilderOptions` parameter to `useVideoPlayer` hook to configure seek backward/forward increments. ([#43043](https://github.com/expo/expo/pull/43043) by [@behenate](https://github.com/behenate))
 
 ### 🐛 Bug fixes
 
