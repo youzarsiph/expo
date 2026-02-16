@@ -8,6 +8,12 @@
 
 ### 🐛 Bug fixes
 
+### 💡 Others
+
+## 55.0.8 — 2026-02-16
+
+### 🐛 Bug fixes
+
 - Add missing `Content-Type: application/json` to internal `/symbolicate` call ([#43074](https://github.com/expo/expo/pull/43074) by [@kitten](https://github.com/kitten))
 - Key loader data by `contextKey` instead of URL pathname ([#43017](https://github.com/expo/expo/pull/43017) by [@hassankhan]
 - Fix port prompt causing process hangs on some systems when checking the conflicting process's info ([#43054](https://github.com/expo/expo/pull/43054) by [@kitten](https://github.com/kitten))

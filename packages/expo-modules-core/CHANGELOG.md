@@ -8,6 +8,12 @@
 
 ### 🐛 Bug fixes
 
+### 💡 Others
+
+## 55.0.9 — 2026-02-16
+
+### 🐛 Bug fixes
+
 - [iOS] Added `DynamicBoolType` to correctly distinguish boolean values from numeric 0/1. ([#42978](https://github.com/expo/expo/pull/42978) by [@nishan](https://github.com/intergalacticspacehighway))
 - [iOS] Fixed `DynamicBoolType` to throw `NullCastException` for nil values, matching `DynamicRawType` behavior. ([#43085](https://github.com/expo/expo/pull/43085) by [@nishan](https://github.com/intergalacticspacehighway))
 

@@ -10,6 +10,10 @@
 
 ### 💡 Others
 
+## 55.0.4 — 2026-02-16
+
+### 💡 Others
+
 - Replace `require-from-string` with `@expo/require-utils` ([#42884](https://github.com/expo/expo/pull/42884) by [@kitten](https://github.com/kitten))
 
 ## 55.0.3 — 2026-02-03
