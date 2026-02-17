@@ -97,6 +97,7 @@ const PACKAGES_MAPPING: Record<string, CommandAdditionalParams> = {
   'expo-contacts-next': ['next/index.ts', 'expo-contacts'],
   'expo-crypto': ['Crypto.ts'],
   'expo-dev-client': ['DevClient.ts'],
+  'expo-dev-menu': ['DevMenu.ts'],
   'expo-device': ['Device.ts'],
   'expo-device-motion': [['DeviceMotion.ts', 'DeviceSensor.ts'], 'expo-sensors'],
   'expo-document-picker': ['index.ts'],
